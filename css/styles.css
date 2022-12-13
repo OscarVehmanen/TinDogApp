@@ -28,7 +28,7 @@ h3 {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -61,7 +61,10 @@ h3 {
 /* Features Section */
 
 #features {
+    background-color: #fff;
     padding: 7% 15%;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box {
@@ -84,8 +87,10 @@ h3 {
 /* Title Image */
 
 .title-image {
+    position: absolute;
+    right: 30%;
     transform: rotate(25deg);
-    width: 60%;
+    width: 17%;
 }
 
 /* Testimonial Section */
@@ -115,4 +120,15 @@ h3 {
 .press-logo {
     margin: 20px 20px 50px;
     width: 15%;
+}
+
+/* Pricing section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
