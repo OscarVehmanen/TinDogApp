@@ -132,3 +132,38 @@ h3 {
 .pricing-column {
     padding: 3% 2%;
 }
+
+#cta {
+    background-color: #FF4C68;
+    color: #fff;    
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#cta-text {
+    font-family:'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#footer i {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}

@@ -50,13 +50,13 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="">Contact</a>
+                <a class="nav-link" href="#footer">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Pricing</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Download</a>
+                <a class="nav-link" href="#cta">Download</a>
               </li>
             </ul>
           </div>
@@ -109,46 +109,72 @@
             <p>Find the love of your dog's life or your money back.</p>
           </div>
         </div>
-      </div>  
+      </div>
     </section>
 
     <!-- Testimonials -->
 
     <section id="testimonials">
-
-      <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
+      <div
+        id="testimonial-carousel"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
         <div class="carousel-inner">
           <div class="carousel-item active">
             <h2>
-              I no longer have to sniff other dogs for love. I've found the hottest
-              Corgi on TinDog. Woof.
+              I no longer have to sniff other dogs for love. I've found the
+              hottest Corgi on TinDog. Woof.
             </h2>
-            <img class="testimonial-img" src="images/dog-img.jpg" alt="dog-profile" />
+            <img
+              class="testimonial-img"
+              src="images/dog-img.jpg"
+              alt="dog-profile"
+            />
             <em>Pebbles, New York</em>
           </div>
           <div class="carousel-item">
-            <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-            <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+            <h2 class="testimonial-text">
+              My dog used to be so lonely, but with TinDog's help, they've found
+              the love of their life. I think.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/lady-img.jpg"
+              alt="lady-profile"
+            />
             <em>Beverly, Illinois</em>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonial-carousel"
+          data-bs-slide="prev"
+        >
           <span class="carousel-control-prev-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonial-carousel"
+          data-bs-slide="next"
+        >
           <span class="carousel-control-next-icon"></span>
         </button>
       </div>
-
     </section>
-
 
     <!-- Press -->
 
     <section id="press">
       <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
       <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
-      <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo" />
+      <img
+        class="press-logo"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
       <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
     </section>
 
@@ -160,7 +186,6 @@
 
       <div class="row">
         <div class="card-group">
-          
           <div class="pricing-column col-lg-4 col-md-6">
             <div class="card">
               <div class="card-header">
@@ -171,7 +196,9 @@
                 <p>5 Matches Per Day</p>
                 <p>10 Messages Per Day</p>
                 <p>Unlimited App Usage</p>
-                <button class="btn btn-lg w-100 btn-outline-dark" type="button">Sign Up</button>
+                <button class="btn btn-lg w-100 btn-outline-dark" type="button">
+                  Sign Up
+                </button>
               </div>
             </div>
           </div>
@@ -186,7 +213,9 @@
                 <p>Unlimited Matches</p>
                 <p>Unlimited Messages</p>
                 <p>Unlimited App Usage</p>
-                <button class="btn btn-lg w-100 btn-dark" type="button">Sign Up</button>
+                <button class="btn btn-lg w-100 btn-dark" type="button">
+                  Sign Up
+                </button>
               </div>
             </div>
           </div>
@@ -202,11 +231,12 @@
                 <p>Unlimited Matches</p>
                 <p>Unlimited Messages</p>
                 <p>Unlimited App Usage</p>
-                <button class="btn btn-lg w-100 btn-dark" type="button">Sign Up</button>
+                <button class="btn btn-lg w-100 btn-dark" type="button">
+                  Sign Up
+                </button>
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </section>
@@ -214,15 +244,31 @@
     <!-- Call to Action -->
 
     <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <h3 id="cta-text">
+        Find the True Love of Your Dog's <br />
+        Life Today.
+      </h3>
+      <button class="download-button btn btn-dark btn-lg" type="button">
+        <i class="fa-brands fa-apple"></i> Download
+      </button>
+      <button
+        class="download-button btn btn-outline-light btn-lg"
+        type="button"
+      >
+        <i class="fa-brands fa-google-play"></i> Download
+      </button>
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
-      <p>© Copyright TinDog</p>
+      <div id="footer-icons">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-solid fa-envelope"></i>
+        <p>© Copyright TinDog</p>
+      </div>
     </footer>
   </body>
 </html>
